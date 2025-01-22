@@ -1,0 +1,124 @@
+/* Container */
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f2f5; /* Light gray background for the whole page */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 280px;
+    background: linear-gradient(to bottom, #006d77, #83c5be); /* Gradient from teal to light teal */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff; /* White text */
+}
+
+/* Profile Pic */
+.profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('usericon.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+/* Full Name */
+.fullName {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.menu li {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #e0f7fa; /* Light cyan text */
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: #ffeb3b; /* Bright yellow for hover effect */
+}
+.menu li a {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #e0f7fa; /* Light cyan text */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #ffeb3b; /* Bright yellow for hover effect */
+}
+
+/* Main Content */
+.mainContent {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff; /* White background for the main content */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+    margin-bottom: 30px;
+}
+
+/* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Group */
+.formGroup {
+    margin-bottom: 20px;
+}
+
+/* Label */
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555; /* Medium gray text */
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input and Textarea */
+.input, .textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Light gray border */
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input:focus, .textarea:focus {
+    border-color: #006d77; /* Teal border on focus */
+}
+
+.textarea {
+    resize: none;
+    height: 100px;
+}

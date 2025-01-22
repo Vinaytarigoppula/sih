@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(110, 116, 173);
+  background: linear-gradient(rgb(17, 0, 0), rgb(1, 63, 10));
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  background: url("v2.mp4");
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Limits the width of the content */
+  padding: 20px;
+}
+
+.tablecontainer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.table {
+  background-color: rgb(2, 52, 45);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+td {
+  color: white;
+}
+
+.chartWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chartContainer {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(2, 52, 45);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.afforestation {
+  margin-top: 30px;
+  color: #ecf0f1;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #e74c3c;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.afforestation:hover {
+  color: #e74c3c;
+  background-color: #ecf0f1;
+}
+
+.videoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.title {
+  color: red;
+  font-size: 34px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.summary {
+  margin-top: 10px;
+  background-color: rgb(17, 1, 1);
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
