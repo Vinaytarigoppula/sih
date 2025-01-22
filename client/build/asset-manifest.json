@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.860e3b8b.css",
+    "main.js": "/static/js/main.93700f45.js",
+    "static/media/afforestation.jpg": "/static/media/afforestation.9b27b64c10cdf6149fba.jpg",
+    "static/media/image8.png": "/static/media/image8.5ebdb389d6b30e6d582e.png",
+    "static/media/image7.png": "/static/media/image7.99ebb753b0caedd4f2d7.png",
+    "static/media/image4.png": "/static/media/image4.fffbb84bfaad810a3bd6.png",
+    "static/media/LoginBackgroung.jpg": "/static/media/LoginBackgroung.280f2dbbb6ead7b9b0b9.jpg",
+    "index.html": "/index.html",
+    "main.860e3b8b.css.map": "/static/css/main.860e3b8b.css.map",
+    "main.93700f45.js.map": "/static/js/main.93700f45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.860e3b8b.css",
+    "static/js/main.93700f45.js"
+  ]
+}
