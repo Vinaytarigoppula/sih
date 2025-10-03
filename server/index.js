@@ -85,7 +85,7 @@ app.post("/login", async (req, res) => {
 // Handle form data submission
 app.post("/inputfromuser", async (req, res) => {
   const { mineName, mineType, mineSize, location,coalType, excavationAmount, transport, equipment } = req.body;
-
+  
   // Validate required fields
   if (!mineName || !mineType || !mineSize || !location || !excavationAmount || !coalType || !equipment) {
     return res.status(400).json({ message: " Fill All The Details." });
@@ -104,6 +104,7 @@ app.post("/inputfromuser", async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 });
+
 app.get("/Afforestation", async (req, res) => {
   try {
     console.log(nameMine); // Log mine name for debugging

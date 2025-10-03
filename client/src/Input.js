@@ -171,7 +171,7 @@ const Input = () => {
 
     return (
         <div className={styles.box}>
-             <nav className={styles.navbar}>
+        <nav className={styles.navbar}>
         <div className={styles.navbarBrand}>Carbon Emission Neutralizer
         <img src={logo} height={90} width={90}></img>
         </div>

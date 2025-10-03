@@ -18,8 +18,7 @@ const Register = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    if(password.length<5 || password.length>15)
-    {
+    if(password.length<5 || password.length>15) {
       alert("password must be between 5 and 15 character")
       return;
     }
